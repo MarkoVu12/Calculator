@@ -15,11 +15,11 @@ int c = 0;
 try (Scanner sc = new Scanner(System.in)){
 
 
-System.out.println ("Ukucajte prvi broj: ");
+System.out.println ("Unesite prvi broj: ");
 int firstNumber = sc.nextInt();
 System.out.println("Izaberite operaciju: +, -, * ,/ ");
 String operation = sc.next();
-System.out.println ("Ukucajte drugi broj: ");
+System.out.println ("Unesite drugi broj: ");
 int secondNumber = sc.nextInt();
 
 
